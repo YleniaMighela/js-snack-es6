@@ -88,7 +88,22 @@ console.log(squadreCalcio);
 
 // SECONDA PARTE
 // creo due funzioni che genereranno numeri random:
+
+
 // la prima per la proprietà punti fatti
+
+function numRandomPuntiFatti(min,max){
+
+    let numeroRandom = (Math.floor(Math.random() * (max - min + 1) ) + min);
+    return numeroRandom;
+
+};
+
+// richiamo la funzione
+
+console.log(numRandomPuntiFatti(1,20));
+
+
 // la seconda per la proprietà falli subiti
 
 
