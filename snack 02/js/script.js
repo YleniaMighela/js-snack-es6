@@ -100,11 +100,21 @@ function numRandomPuntiFatti(min,max){
 };
 
 // richiamo la funzione
-
 console.log(numRandomPuntiFatti(1,20));
 
 
+
 // la seconda per la proprietà falli subiti
+
+function numRandomFalliSubiti(min,max){
+
+    let numeroRandom = (Math.floor(Math.random() * (max - min + 1) ) + min);
+    return numeroRandom;
+
+};
+
+// richiamo la funzione
+console.log(numRandomFalliSubiti(1,30));
 
 
 // TERZA PARTE
