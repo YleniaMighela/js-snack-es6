@@ -78,8 +78,32 @@ for (let i = 0; i < biciclette.length; i++) {
     let valorePeso = indicebiciclette.peso;
     
     console.log(valorePeso);
-    
+
+
+
+   
 };
+
+
+// Confronto tra gli elementi dell'array chi ha il peso minore
+
+//inizializzo una variabile prendendo il primo elemento dell'array
+
+let pesoMinore = biciclette[0];
+
+// creo un ciclo per confrontare il peso
+
+for(let i = 0; i < biciclette.length; i++){
+
+    // SE l'elemento iesimo estrapolato dall'array ha un peso minore rispetto al valore dell'oggetto della prima array allora il peso sarà inferiore
+    
+    if(biciclette[i].peso < pesoMinore.peso) {
+        pesoMinore = biciclette[i];
+    }
+};
+
+console.log(pesoMinore);
+
 
 
 // stampo la bici con peso minore
