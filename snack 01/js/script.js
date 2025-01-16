@@ -96,7 +96,7 @@ let pesoMinore = biciclette[0];
 for(let i = 0; i < biciclette.length; i++){
 
     // SE l'elemento iesimo estrapolato dall'array ha un peso minore rispetto al valore dell'oggetto della prima array allora il peso sarà inferiore
-    
+
     if(biciclette[i].peso < pesoMinore.peso) {
         pesoMinore = biciclette[i];
     }
@@ -106,4 +106,7 @@ console.log(pesoMinore);
 
 
 
-// stampo la bici con peso minore
+// stampo in pagina la bici con peso minore
+
+// Richiamo dall'HTML 
+biciclettaPiuLeggera.innerText = `la bici più leggera è ${pesoMinore.nome}`
