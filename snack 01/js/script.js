@@ -3,9 +3,63 @@
 
 //  creo un array 
 
+const biciclette = [
+ // all'interno dell'array inserisco gli oggetti che descrivono la bici con le proprietà nome e peso
+{
+    "nome": "bicicletta01",
+    "peso": 200,
+},
+
+{
+    "nome": "bicicletta02",
+    "peso": 100,
+},
+
+{
+    "nome": "bicicletta03",
+    "peso": 230,
+},
+
+{
+    "nome": "bicicletta04",
+    "peso": 140,
+},
+
+{
+    "nome": "bicicletta05",
+    "peso": 200,
+},
+
+{
+    "nome": "bicicletta06",
+    "peso": 290,
+},
+
+{
+    "nome": "bicicletta07",
+    "peso": 450,
+},
+
+{
+    "nome": "bicicletta08",
+    "peso": 340,
+},
+
+{
+    "nome": "bicicletta09",
+    "peso": 200,
+},
+
+{
+    "nome": "bicicletta10",
+    "peso": 310,
+},
 
 
-    // all'interno dell'array inserisco gli oggetti che descrivono la bici con le proprietà nome e peso
+];
+
+   
+console.log(biciclette);
 
 
 
