@@ -10,14 +10,86 @@
 // PRIMA PARTE
 // creo un array
 
-// all'interno dell'array inserisco gli oggetti che descrivono le squadre con le proprietà nome, punti fatti, falli subiti
+const squadreCalcio = [
+    
+    // all'interno dell'array inserisco gli oggetti che descrivono le squadre con le proprietà nome, punti fatti, falli subiti
+    {
+        "nome": "Roma",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+
+    {
+        "nome": "Lazio",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Milan",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Inter",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Juventus",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Torino",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Genoa",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Cagliari",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Sampdoria",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    {
+        "nome": "Fiorentina",
+        "punti fatti": 0,
+        "falli subiti" : 0,
+    },
+    
+    
+    
+    
+];
+
+
+console.log(squadreCalcio);
+
+
+
 
 
 
 // SECONDA PARTE
 // creo due funzioni che genereranno numeri random:
-    // la prima per la proprietà punti fatti
-    // la seconda per la proprietà falli subiti
+// la prima per la proprietà punti fatti
+// la seconda per la proprietà falli subiti
 
 
 // TERZA PARTE
